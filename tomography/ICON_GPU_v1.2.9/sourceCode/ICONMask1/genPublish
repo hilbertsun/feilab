@@ -1,0 +1,2 @@
+gcc -o ICONMask1.o -c ICONMask1.c
+gcc -o mrcfile3.o -c mrcfile3.c

@@ -1,0 +1,2 @@
+gcc -o ICONPreProcess.o -c ICONPreProcess.c
+gcc -o mrcfile3.o -c mrcfile3.c

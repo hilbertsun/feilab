@@ -1,0 +1,9 @@
+2017/05/24 10:03:48	incomplete         	 27349/    -2	zfg0	/home/wangzihao/software/EMAN2/bin/e2proc3d.py ICON_926.mrc --calcfsc=reconstruction/mid000000.mrc ICON_926.fsc
+2017/05/24 10:03:54	incomplete         	 27356/    -2	zfg0	/home/wangzihao/software/EMAN2/bin/e2proc3d.py ICON_926.mrc --calcfsc=reconstruction/mid00000.mrc ICON_926.fsc
+2017/05/24 10:04:51	incomplete         	 27405/    -2	zfg0	/home/wangzihao/software/EMAN2/bin/e2proc3d.py ICON.mrc --calcfsc=reconstruction/mid00000.mrc ICON.fsc
+2017/05/24 15:14:51	incomplete         	  7860/    -2	zfg0	/home/wangzihao/software/EMAN2/bin/e2proc3d.py IG4_th512.mrc --calcfsc=IG5_th512.mrc IG4_th512.fsc
+2017/05/24 15:16:53	incomplete         	  7939/    -2	zfg0	/home/wangzihao/software/EMAN2/bin/e2proc3d.py IG4_927.mrc --calcfsc=IG5_927.mrc IG4_927.fsc
+2017/05/24 15:19:14	incomplete         	  8038/    -2	zfg0	/home/wangzihao/software/EMAN2/bin/e2proc3d.py IG4_927.mrc --calcfsc=ICON_927.mrc IG4_927.fsc
+2017/05/24 15:19:21	incomplete         	  8044/    -2	zfg0	/home/wangzihao/software/EMAN2/bin/e2proc3d.py IG5_927.mrc --calcfsc=ICON_927.mrc IG5_927.fsc
+2017/05/24 15:21:40	incomplete         	  8138/    -2	zfg0	/home/wangzihao/software/EMAN2/bin/e2proc3d.py IG4_th128.mrc --calcfsc=ICON_th128.mrc IG4_th128.fsc
+2017/05/24 15:21:47	incomplete         	  8144/    -2	zfg0	/home/wangzihao/software/EMAN2/bin/e2proc3d.py IG5_th128.mrc --calcfsc=ICON_th128.mrc IG5_th128.fsc

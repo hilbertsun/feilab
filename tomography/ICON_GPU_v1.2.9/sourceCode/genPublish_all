@@ -1,0 +1,46 @@
+#!/bin/bash
+
+cd ..
+mkdir $1
+cd $1
+
+
+mkdir $2
+cd $2
+mkdir ICON-GPU
+mkdir ICONPreProcess
+mkdir ICONMask1
+mkdir ICONMask2
+mkdir ICONMask3
+mkdir lib
+mkdir bin
+mkdir log
+mkdir config
+cp -rf ../../sourceCode/log/* log
+cp -rf ../../sourceCode/config/* config
+cp ../../sourceCode/install .
+cp -rf ../../sourceCode/supportLib .
+
+cd ../../sourceCode
+
+cd ICON-GPU
+./genPublish
+cd ..
+cd ICONMask1
+./genPublish
+cd ..
+cd ICONMask2
+./genPublish
+cd ..
+cd ICONMask3
+./genPublish
+cd ..
+cd ICONPreProcess
+./genPublish
+cd ..
+
+cp -f ICON-GPU/*.o ../$1/$2/ICON-GPU/
+cp -f ICONMask1/*.o ../$1/$2/ICONMask1/
+cp -f ICONMask2/*.o ../$1/$2/ICONMask2/
+cp -f ICONMask3/*.o ../$1/$2/ICONMask3/
+cp -f ICONPreProcess/*.o ../$1/$2/ICONPreProcess/

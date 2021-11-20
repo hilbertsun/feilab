@@ -1,0 +1,53 @@
+#install log
+cd config/genConfigCode
+gcc -o genConfig genConfig.c
+cd ../..
+ln -s config/genConfigCode/genConfig .
+./genConfig
+rm -f genConfig
+cd log
+gcc -o ../lib/log.o -c log.c
+cd ..
+
+
+#extract fftw-3.3.4
+cd supportLib
+tar -zxvf fftw-3.3.4.tar.gz fftw-3.3.4
+cd ..
+
+
+#generate libfftw3.a
+cd supportLib/fftw-3.3.4
+./configure --prefix=$PWD --enable-float
+make
+make install
+cp lib/libfftw3f.a ../../lib
+cd ../..
+
+
+#install ICONMask2
+cd ICONMask2
+gcc -o ../bin/ICONMask2 ICONMask2.o mrcfile3.o ../lib/log.o ../lib/libfftw3f.a -lm 
+cd ..
+
+
+#install ICONMask1
+cd ICONMask1
+gcc -o ../bin/ICONMask1 ICONMask1.o mrcfile3.o ../lib/log.o ../lib/libfftw3f.a -lm 
+cd ..
+
+
+#install ICONPreProcess
+cd ICONPreProcess
+gcc -o ../bin/ICONPreProcess ICONPreProcess.o mrcfile3.o ../lib/log.o -lm
+cd ..
+
+#install ICONMask3
+cd ICONMask3
+nvcc -o ../bin/ICONMask3 ICONMask3.o mrcfile3.o ../lib/log.o -lm -lcufft
+cd ..
+
+#install ICON-GPU
+cd ICON-GPU
+nvcc -o ../bin/ICON-GPU ICONGPU.o calFRC.o readSlicePart_crossV.o MainCode_crossV.o readSlicePart.o MainCode.o nufft_gpu_v8.o Iteration2.o saveMRC_real.o alpha_new2.o mrcfile3.o saveMRC.o px2D.o weight.o reProject_NFFT.o ../lib/log.o -lcufft  -lpthread
+cd ..

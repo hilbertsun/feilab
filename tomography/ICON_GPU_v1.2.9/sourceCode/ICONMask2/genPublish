@@ -1,0 +1,2 @@
+gcc -o ICONMask2.o -c ICONBlockMask_fast.c
+gcc -o mrcfile3.o -c mrcfile3.c

@@ -1,0 +1,17 @@
+nvcc -o ICONGPU.o -c ICONGPU.cu -lcufft  -lpthread
+nvcc -o readSlicePart.o -c readSlicePart.cu 
+nvcc -o readSlicePart_crossV.o -c readSlicePart_crossV.cu 
+nvcc -o MainCode.o -c MainCode.cu 
+nvcc -o MainCode_crossV.o -c MainCode_crossV.cu 
+nvcc -o nufft_gpu_v8.o -c nufft_gpu_v8.cu 
+nvcc -o Iteration2.o -c Iteration2.cu 
+nvcc -o alpha_new2.o -c alpha_new2.cu 
+nvcc -o saveMRC.o -c saveMRC.cu -lcufft 
+nvcc -o saveMRC_real.o -c saveMRC_real.cu -lcufft 
+nvcc -o px2D.o -c px2D.cu 
+nvcc -o weight.o -c weight.cu 
+nvcc -o reProject_NFFT.o -c reProject_NFFT.cu 
+gcc -o mrcfile3.o -c mrcfile3.c
+nvcc -o calFRC.o -c calFRC.cu -lcufft
+nvcc -o ICON-GPU ICONGPU.o ../../ICON-GPUv1.2.8/Ubuntu64/lib/log.o calFRC.o readSlicePart_crossV.o MainCode_crossV.o readSlicePart.o MainCode.o nufft_gpu_v8.o Iteration2.o saveMRC_real.o alpha_new2.o mrcfile3.o saveMRC.o px2D.o weight.o reProject_NFFT.o -lcufft  -lpthread
+

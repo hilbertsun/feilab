@@ -1,0 +1,1 @@
+nvcc -o ICONCrossVMaskIn2D_weightOnlyOnSampled-GPU ICONCrossVMaskIn2D_weightOnlyOnSampled.cu mrcfile3.c -lcufft ../log/log.c -lm

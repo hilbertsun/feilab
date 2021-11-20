@@ -1,0 +1,3 @@
+nvcc -o ICONMask3.o -c ICONCrossVMaskIn2D_weightOnlyOnSampled.cu -lcufft
+gcc -o mrcfile3.o -c mrcfile3.c
+

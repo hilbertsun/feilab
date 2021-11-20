@@ -1,0 +1,456 @@
+parameter:
+input : /home/chenyu/GICON4/11kx/mm_11kx-3bin2bx2_fin_mask_bin4.mrc
+tiltfile : /home/chenyu/GICON4/11kx/11kx-3bin2bx2.tlt
+outputPath : .
+slice : 0,511
+ICONIteration : 10,170,20
+dataType : 1
+threshold : 0.000000
+use GPU : 0 1 2 
+thread 0 using GPU 0 , deals with slices : start 0 end 237
+thread 1 using GPU 1 , deals with slices : start 238 end 273
+thread 2 using GPU 2 , deals with slices : start 274 end 511
+n1 1024 n2 1024
+n1 1024 n2 1024
+n1 1024 n2 1024
+slice 0 finished, time 4.000000
+slice 274 finished, time 3.980000
+full reconstruction
+full reconstruction
+slice 1 finished, time 3.930000
+slice 275 finished, time 3.970000
+full reconstruction
+full reconstruction
+slice 2 finished, time 3.930000
+slice 276 finished, time 3.940000
+full reconstruction
+full reconstruction
+slice 238 finished, time 17.820000
+full reconstruction
+slice 3 finished, time 4.080000
+slice 277 finished, time 4.080000
+full reconstruction
+full reconstruction
+slice 4 finished, time 4.000000
+slice 278 finished, time 4.040000
+full reconstruction
+full reconstruction
+slice 5 finished, time 4.010000
+slice 279 finished, time 4.020000
+full reconstruction
+full reconstruction
+slice 6 finished, time 3.950000
+slice 280 finished, time 3.980000
+full reconstruction
+slice 239 finished, time 17.600000
+full reconstruction
+full reconstruction
+slice 7 finished, time 4.170000
+slice 281 finished, time 4.150000
+full reconstruction
+full reconstruction
+slice 8 finished, time 3.960000
+slice 282 finished, time 4.040000
+full reconstruction
+full reconstruction
+slice 283 finished, time 3.800000
+full reconstruction
+slice 9 finished, time 4.170000
+full reconstruction
+slice 284 finished, time 4.230000
+slice 240 finished, time 17.240000
+full reconstruction
+slice 10 finished, time 4.300000
+full reconstruction
+full reconstruction
+slice 285 finished, time 3.780000
+full reconstruction
+slice 11 finished, time 3.700000
+full reconstruction
+slice 286 finished, time 4.190000
+full reconstruction
+slice 12 finished, time 4.220000
+full reconstruction
+slice 287 finished, time 4.190000
+full reconstruction
+slice 13 finished, time 4.140000
+full reconstruction
+slice 288 finished, time 4.220000
+slice 241 finished, time 17.809999
+full reconstruction
+slice 14 finished, time 4.240000
+full reconstruction
+full reconstruction
+slice 289 finished, time 3.910000
+full reconstruction
+slice 15 finished, time 3.800000
+full reconstruction
+slice 290 finished, time 4.210000
+full reconstruction
+slice 16 finished, time 4.230000
+full reconstruction
+slice 291 finished, time 4.120000
+full reconstruction
+slice 17 finished, time 4.120000
+full reconstruction
+slice 292 finished, time 4.100000
+slice 242 finished, time 17.610001
+full reconstruction
+slice 18 finished, time 4.150000
+full reconstruction
+full reconstruction
+slice 293 finished, time 4.100000
+full reconstruction
+slice 19 finished, time 4.020000
+full reconstruction
+slice 294 finished, time 4.110000
+full reconstruction
+slice 20 finished, time 4.130000
+full reconstruction
+slice 295 finished, time 4.110000
+full reconstruction
+slice 21 finished, time 4.150000
+full reconstruction
+slice 296 finished, time 4.200000
+slice 243 finished, time 17.809999
+full reconstruction
+slice 22 finished, time 4.270000
+full reconstruction
+full reconstruction
+slice 297 finished, time 3.960000
+full reconstruction
+slice 23 finished, time 3.830000
+full reconstruction
+slice 298 finished, time 4.250000
+full reconstruction
+slice 24 finished, time 4.270000
+full reconstruction
+slice 299 finished, time 4.310000
+full reconstruction
+slice 25 finished, time 4.290000
+full reconstruction
+slice 300 finished, time 4.270000
+slice 244 finished, time 17.980000
+full reconstruction
+slice 26 finished, time 4.350000
+full reconstruction
+full reconstruction
+slice 301 finished, time 3.820000
+full reconstruction
+slice 27 finished, time 3.740000
+full reconstruction
+slice 302 finished, time 4.210000
+full reconstruction
+slice 28 finished, time 4.180000
+full reconstruction
+slice 303 finished, time 4.180000
+full reconstruction
+slice 29 finished, time 4.170000
+full reconstruction
+slice 304 finished, time 4.350000
+slice 245 finished, time 18.020000
+full reconstruction
+slice 30 finished, time 4.400000
+full reconstruction
+full reconstruction
+slice 305 finished, time 3.880000
+full reconstruction
+slice 31 finished, time 3.780000
+full reconstruction
+slice 306 finished, time 4.230000
+full reconstruction
+slice 32 finished, time 4.220000
+full reconstruction
+slice 307 finished, time 4.200000
+full reconstruction
+slice 33 finished, time 4.170000
+full reconstruction
+slice 308 finished, time 4.150000
+full reconstruction
+slice 246 finished, time 17.930000
+slice 34 finished, time 4.200000
+full reconstruction
+full reconstruction
+slice 309 finished, time 3.930000
+full reconstruction
+slice 35 finished, time 3.800000
+full reconstruction
+slice 310 finished, time 4.130000
+full reconstruction
+slice 36 finished, time 4.150000
+full reconstruction
+slice 311 finished, time 4.210000
+full reconstruction
+slice 37 finished, time 4.230000
+full reconstruction
+slice 312 finished, time 4.170000
+full reconstruction
+slice 247 finished, time 17.889999
+slice 38 finished, time 4.190000
+full reconstruction
+full reconstruction
+slice 313 finished, time 4.300000
+full reconstruction
+slice 39 finished, time 4.180000
+full reconstruction
+slice 314 finished, time 4.270000
+full reconstruction
+slice 40 finished, time 4.330000
+full reconstruction
+slice 315 finished, time 4.250000
+full reconstruction
+slice 41 finished, time 4.250000
+full reconstruction
+slice 316 finished, time 4.240000
+full reconstruction
+slice 248 finished, time 18.230000
+slice 42 finished, time 4.290000
+full reconstruction
+full reconstruction
+slice 317 finished, time 4.290000
+full reconstruction
+slice 43 finished, time 4.170000
+full reconstruction
+slice 318 finished, time 4.180000
+full reconstruction
+slice 44 finished, time 4.230000
+full reconstruction
+slice 319 finished, time 4.170000
+full reconstruction
+slice 45 finished, time 4.120000
+full reconstruction
+slice 320 finished, time 4.150000
+slice 249 finished, time 17.910000
+full reconstruction
+slice 46 finished, time 4.240000
+full reconstruction
+full reconstruction
+slice 321 finished, time 4.410000
+full reconstruction
+slice 47 finished, time 4.290000
+full reconstruction
+slice 322 finished, time 4.190000
+full reconstruction
+slice 48 finished, time 4.170000
+full reconstruction
+slice 323 finished, time 4.100000
+full reconstruction
+slice 49 finished, time 4.150000
+full reconstruction
+slice 324 finished, time 4.240000
+slice 250 finished, time 17.660000
+full reconstruction
+slice 50 finished, time 4.340000
+full reconstruction
+full reconstruction
+slice 325 finished, time 4.270000
+full reconstruction
+slice 51 finished, time 4.140000
+full reconstruction
+slice 326 finished, time 4.250000
+full reconstruction
+slice 52 finished, time 4.300000
+full reconstruction
+slice 327 finished, time 4.280000
+full reconstruction
+slice 53 finished, time 4.280000
+full reconstruction
+slice 251 finished, time 18.100000
+slice 328 finished, time 4.400000
+full reconstruction
+slice 54 finished, time 4.480000
+full reconstruction
+full reconstruction
+slice 329 finished, time 4.210000
+full reconstruction
+slice 55 finished, time 4.210000
+full reconstruction
+slice 330 finished, time 4.240000
+full reconstruction
+slice 56 finished, time 4.220000
+full reconstruction
+slice 331 finished, time 4.260000
+full reconstruction
+slice 57 finished, time 4.270000
+full reconstruction
+slice 252 finished, time 17.850000
+slice 332 finished, time 4.260000
+full reconstruction
+full reconstruction
+slice 58 finished, time 4.380000
+full reconstruction
+slice 333 finished, time 4.210000
+full reconstruction
+slice 59 finished, time 4.150000
+full reconstruction
+slice 334 finished, time 4.220000
+full reconstruction
+slice 60 finished, time 4.270000
+full reconstruction
+slice 335 finished, time 4.240000
+full reconstruction
+slice 61 finished, time 4.290000
+full reconstruction
+slice 253 finished, time 18.110001
+slice 336 finished, time 4.330000
+full reconstruction
+full reconstruction
+slice 62 finished, time 4.090000
+full reconstruction
+slice 337 finished, time 3.900000
+full reconstruction
+slice 63 finished, time 4.240000
+full reconstruction
+slice 338 finished, time 4.220000
+full reconstruction
+slice 64 finished, time 4.150000
+full reconstruction
+slice 339 finished, time 4.150000
+full reconstruction
+slice 65 finished, time 4.230000
+full reconstruction
+slice 254 finished, time 17.990000
+slice 340 finished, time 4.240000
+full reconstruction
+full reconstruction
+slice 66 finished, time 4.070000
+full reconstruction
+slice 341 finished, time 3.930000
+full reconstruction
+slice 67 finished, time 4.200000
+full reconstruction
+slice 342 finished, time 4.130000
+full reconstruction
+slice 68 finished, time 4.150000
+full reconstruction
+slice 343 finished, time 4.110000
+full reconstruction
+slice 69 finished, time 4.120000
+full reconstruction
+slice 255 finished, time 17.870001
+slice 344 finished, time 4.330000
+full reconstruction
+full reconstruction
+slice 70 finished, time 4.310000
+full reconstruction
+slice 345 finished, time 4.140000
+full reconstruction
+slice 71 finished, time 4.200000
+full reconstruction
+slice 346 finished, time 4.190000
+full reconstruction
+slice 72 finished, time 4.230000
+full reconstruction
+slice 347 finished, time 4.150000
+full reconstruction
+slice 73 finished, time 4.220000
+slice 256 finished, time 18.030001
+full reconstruction
+slice 348 finished, time 4.430000
+full reconstruction
+full reconstruction
+slice 74 finished, time 4.370000
+full reconstruction
+slice 349 finished, time 4.230000
+full reconstruction
+slice 75 finished, time 4.180000
+full reconstruction
+slice 350 finished, time 4.170000
+full reconstruction
+slice 76 finished, time 4.100000
+full reconstruction
+slice 351 finished, time 4.140000
+full reconstruction
+slice 77 finished, time 4.110000
+slice 257 finished, time 17.670000
+full reconstruction
+full reconstruction
+slice 352 finished, time 4.440000
+full reconstruction
+slice 78 finished, time 4.310000
+full reconstruction
+slice 353 finished, time 4.200000
+full reconstruction
+slice 79 finished, time 4.240000
+full reconstruction
+slice 354 finished, time 4.130000
+full reconstruction
+slice 80 finished, time 4.110000
+full reconstruction
+slice 355 finished, time 4.180000
+full reconstruction
+slice 258 finished, time 17.950001
+slice 81 finished, time 4.270000
+full reconstruction
+full reconstruction
+slice 356 finished, time 4.240000
+full reconstruction
+slice 82 finished, time 4.130000
+full reconstruction
+slice 357 finished, time 4.230000
+full reconstruction
+slice 83 finished, time 4.190000
+full reconstruction
+slice 358 finished, time 4.170000
+full reconstruction
+slice 84 finished, time 4.200000
+full reconstruction
+slice 359 finished, time 4.220000
+full reconstruction
+slice 259 finished, time 18.100000
+slice 85 finished, time 4.270000
+full reconstruction
+full reconstruction
+slice 360 finished, time 4.390000
+full reconstruction
+slice 86 finished, time 4.260000
+full reconstruction
+slice 361 finished, time 4.140000
+full reconstruction
+slice 87 finished, time 4.240000
+full reconstruction
+slice 362 finished, time 4.350000
+full reconstruction
+slice 88 finished, time 4.260000
+full reconstruction
+slice 363 finished, time 4.220000
+full reconstruction
+slice 260 finished, time 18.160000
+slice 89 finished, time 4.370000
+full reconstruction
+full reconstruction
+slice 364 finished, time 3.960000
+full reconstruction
+slice 90 finished, time 3.740000
+full reconstruction
+slice 365 finished, time 4.100000
+full reconstruction
+slice 91 finished, time 4.140000
+full reconstruction
+slice 366 finished, time 4.230000
+full reconstruction
+slice 92 finished, time 4.290000
+full reconstruction
+slice 367 finished, time 4.200000
+full reconstruction
+slice 261 finished, time 17.920000
+slice 93 finished, time 4.300000
+full reconstruction
+full reconstruction
+slice 368 finished, time 4.100000
+full reconstruction
+slice 94 finished, time 3.950000
+full reconstruction
+slice 369 finished, time 4.170000
+full reconstruction
+slice 95 finished, time 4.160000
+full reconstruction
+slice 370 finished, time 4.230000
+full reconstruction
+slice 96 finished, time 4.280000
+full reconstruction
+slice 371 finished, time 4.190000
+full reconstruction
+slice 262 finished, time 17.959999
+slice 97 finished, time 4.290000
+full reco

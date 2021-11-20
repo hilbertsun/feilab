@@ -1,0 +1,2 @@
+nvcc -o AutoGDeterm AutoGDeterm.o calFRC.o readSlicePart.o MainCode.o AutoGDeterm_func.o nufft_gpu_v8.o Iteration2.o saveMRC_real.o alpha_new2.o mrcfile2.o saveMRC.o px2D.o weight.o reProject_NFFT.o -lcufft  -lpthread
+
