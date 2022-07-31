@@ -1,0 +1,1 @@
+nvcc -o eHecGPU_ver3.0 mrcfile2.c eHecGPU_newV3.0.cu
